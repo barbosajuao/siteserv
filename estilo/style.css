@@ -163,7 +163,7 @@ p{
 
 }
 .conteudo02{
-    display: block;
+    
     float: right;
     width: 50%;
     height: 420px;
@@ -173,7 +173,7 @@ p{
     margin-top: 260px;
     margin-left: 230px;
     max-width: 500px;
-    height: 200px;
+    height: 150px;
    
 }
 #divtext02{
@@ -181,7 +181,7 @@ p{
     margin-top: 260px;
     margin-left:15px;
     max-width: 500px;
-    height: 200px;
+    height: 150px;
    
 }
 #divtext02 > p{
@@ -259,6 +259,37 @@ p{
         margin-top: 200px;
         margin-left: 25%;
     }
+    .img01{
+   
+        position: relative;
+        margin: auto;
+        max-width: 800px;
+        height: 430px;
+        background-image: url(../imagens/mockup.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 5px black;
+    }
+    .conteudo01{
+        padding: 10px;
+        display:inline-block;
+        width: 50%;
+        height: 480px;
+        background-color:  rgb(136, 90, 180);;
+    
+    }
+    .conteudo02{
+        display: block;
+        float: right;
+        width: 50%;
+        height: 480px;
+        
+    }
+    #divtext01{
+       
+        margin-left: 0px;
+    }
+    
 }
 @media  screen and (max-width:895px){
    
@@ -284,43 +315,138 @@ ul{
 #contato01{
     margin-left: 95px;
     padding: 10px;
-    background-color: rgb(223, 91, 30);
+    background-color: rgb(30, 0, 255);
     border-radius: 20px;
 
 }
+#divtext01{
+    margin-left: 10px;
+}
+.img01{
+   
+   
+    max-width: 650px;
+    height: 430px;
+    
+}
+
 }
 @media  screen and (max-width:780px){
    
     .list{
     
-        position: absolute;
+       
         margin-top: 45px;
         margin-left: 150px;
     }
     .titulo{
-        width: 500px;
-        height: 200px;
-        position: absolute;
+        
         margin-top: 200px;
-        margin-left: 10%;
+        margin-left:150px;
+        text-align: center;
+        width: 400px;
+        height: 400px;
+        
+       
+        
     }
+    .titulo > p{
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+    #contato01{
+        margin-left: 95px;
+        padding: 10px;
+        background-color: rgb(29, 251, 0);
+        border-radius: 20px;
+    
+    }
+   
+    .list{
+        
+        position: absolute;
+        margin-left: 180px;
+    }
+    #loren5{
+        width: 550px;
+    }
+    .img01{
+        width: 600px;
+    }
+
 }
 @media  screen and (max-width:667px){
    
+   
     .list{
-    
-        position: absolute;
-        margin-top: 45px;
-        margin-left: 70px;
-    }
+        position: relative;
+        width: 400px;
+        margin: auto;
+        padding-top: 30px;
+     }
     .titulo{
+        margin: 150px auto;
+        text-align: center;
         width: 500px;
         height: 200px;
         position: absolute;
-        margin-top: 200px;
-        margin-left: 15px;
+        
     }
     .titulo > p{
+        text-align: center;
         width: 300px;
+        margin: auto;
     }
+    #contato01{
+        margin-left: 95px;
+        padding: 10px;
+        background-color: rgb(255, 0, 230);
+        border-radius: 20px;
+    }
+    .sec02 > h3{
+        margin: 20px auto;
+        text-align: center;
+        width:400px;
+    }
+    #loren5{
+        margin: auto;
+        width: 400px;
+    }
+    .img01{
+   
+        margin: 0px auto;
+        max-width: 400px;
+        height: 250px;
+        }
+    #divtext01{
+        margin:200px auto;
+        position: relative;
+        display:block;
+    }
+    #divtext02{
+        padding: 30px;
+        margin:30px auto;
+        width: 100%;
+        position: relative;
+        display:block;
+    }
+    .conteudo01{
+        
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+    .conteudo02{
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+
+    #nav{
+        display: none;
+    }
+
+   
+    
 }
