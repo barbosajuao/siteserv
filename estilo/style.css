@@ -155,6 +155,7 @@ p{
     height: 380px;
 }
 .conteudo01{
+    
     padding: 10px;
     display:inline-block;
     width: 50%;
@@ -205,6 +206,71 @@ p{
     background-size: cover;
     border-radius: 50%;
 }
+.sec04{
+    margin-top: 40px;
+    position: absolute;
+    width: 100vw;
+    height: 550px;
+    background-color:rgb(96, 33, 156);
+}
+#formulario{
+    padding: 30px;
+    display: inline-block;
+    max-width: 400px;
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    
+}
+#container{
+    float: right;
+    width: 600px;
+    height: 300px;
+   
+}
+#formulario > h4{
+    color: white;
+    font-size: 2em;
+}
+#formulario > p{
+    margin-bottom: 10px;
+}
+#container > h4{
+    margin-top: 45px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 2em;
+}
+form > input {
+    max-width: 400px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+textarea{
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+}
+#container{
+   margin-right: 20px;
+}
+#map{
+    width: 70%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+#submit{
+    display:block;
+    font-size: 1.2em;
+    border: none;
+    color: white;
+    width: 130px;
+    background-color: rgb(223, 91, 30);;
+
+}
 
 
 
@@ -227,6 +293,20 @@ p{
         background-size: 100% 100%;
         margin-left: 52%;
         margin-top: -50px;}
+        #container{
+            width: 500px;
+            
+            margin-right: 0px;
+         }
+         #container > h4{
+            margin-left: 50px;
+         }
+
+         #map{
+            margin-left: 50px;
+            width: 400px;
+         }
+         
     
 }
 @media screen and (max-width: 1050px){
@@ -270,13 +350,9 @@ p{
         background-size: cover;
         box-shadow: 0px 0px 5px black;
     }
-    .conteudo01{
-        padding: 10px;
-        display:inline-block;
-        width: 50%;
-        height: 480px;
-        background-color:  rgb(136, 90, 180);;
-    
+    #divtext01{
+      
+        margin-left: 0px;
     }
     .conteudo02{
         display: block;
@@ -285,10 +361,28 @@ p{
         height: 480px;
         
     }
-    #divtext01{
-       
-        margin-left: 0px;
-    }
+    #container{
+        width: 400px;
+        
+        margin-right: 0px;
+     }
+     #container > h4{
+        margin-left: 50px;
+     }
+
+     #map{
+
+        
+        margin: 0;
+        width:100%;
+     }
+     #formulario{
+        max-width: 22em;
+        margin: 0;
+        
+     }
+
+   
     
 }
 @media  screen and (max-width:895px){
@@ -374,6 +468,22 @@ ul{
     .img01{
         width: 600px;
     }
+    #formulario{
+       
+    }
+    #container{
+        width: 100%;
+        background-color: rgb(47, 3, 89);
+        text-align: center;
+        margin: 0;
+        display: inline-block;
+    }
+    .sec04{
+        float: none;
+        width: 100%;
+        height: 1500px;
+    }
+    
 
 }
 @media  screen and (max-width:667px){
