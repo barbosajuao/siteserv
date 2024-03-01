@@ -11,7 +11,7 @@ function initMap() {
     // Crie um novo mapa dentro da div com o id "map"
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
   
-    // Crie um marcador para a rua específica
+    // Crie um marcador para a rua específicaaaaaaa
     var marker = new google.maps.Marker({
       position: streetLocation,
       map: map,
