@@ -22,7 +22,7 @@ function initMap() {
  
 }
 
-// prestar a atencao que eu coloquei dentro da funcao  iniciar nao deu cero
+// prestar a atencao que eu coloquei dentro da funcao  iniciar nao deu ceroo
 
 function abrirmap() {
   var url = 'https://www.google.com/maps/search/?api=1&query=-10.5949648,-38.3810848';
