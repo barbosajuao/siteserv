@@ -1,4 +1,99 @@
+
 function initMap() {
+  // Localização inicial
+  var minhaLocalizacao = { lat: -10.5949648, lng: -38.3810848 };
+
+  // Opções do mapa
+  var opcoesDoMapa = {
+      center: minhaLocalizacao,
+      zoom: 13
+  };
+
+  // Criar o mapa
+  var mapa = new google.maps.Map(document.getElementById('map'), opcoesDoMapa);
+
+  //adiciona um marcador ao google fontes 
+  var marcador = new google.maps.Marker({
+    position: minhaLocalizacao, // Posição do marcador
+    map: mapa, // Mapa associado ao marcador
+    title: 'Meu Marcador' // Título do marcador (exibido quando o usuário passa o mouse sobre ele)
+  })
+
+ 
+}
+
+// prestar a atencao que eu coloquei dentro da funcao  iniciar nao deu cero
+
+function abrirmap() {
+  var url = 'https://www.google.com/maps/search/?api=1&query=-10.5949648,-38.3810848';
+  window.open(url, '_blank');
+}
+initMap();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* function initMap() {
     // Coordenadas para a rua específica
     var streetLocation = { lat: -10.59249, lng: -38.38724 };
   
@@ -19,5 +114,5 @@ function initMap() {
     });
   }
   
-  initMap();
+  initMap(); */
   
