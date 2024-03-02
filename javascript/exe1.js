@@ -16,7 +16,7 @@ function initMap() {
   var marcador = new google.maps.Marker({
     position: minhaLocalizacao, // Posição do marcador
     map: mapa, // Mapa associado ao marcador
-    title: 'Meu Marcador' // Título do marcador (exibido quando o usuário passa o mouse sobre ele)
+    title: 'Meu Marcador' // Título do marcador (exibido quando o usuário passa o mouse sobre ele)asdasdasdasdasdasd
   })
 
  
